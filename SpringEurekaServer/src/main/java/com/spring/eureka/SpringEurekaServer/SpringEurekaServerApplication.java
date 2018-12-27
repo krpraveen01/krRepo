@@ -9,6 +9,7 @@ public class SpringEurekaServerApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Test");
+		System.out.println("Test");
 		SpringApplication.run(SpringEurekaServerApplication.class, args);
 	}
 }
