@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class SpringBootEurekaApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Test");
 		SpringApplication.run(SpringBootEurekaApplication.class, args);
 	}
 	
