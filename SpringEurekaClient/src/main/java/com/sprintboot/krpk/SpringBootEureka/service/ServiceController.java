@@ -32,6 +32,7 @@ public class ServiceController {
 		List<String> userNames = response.getBody();
 		System.out.println("Stream moongo op:::"+userNames.stream());
 		return userNames.stream().map(user -> getUseInfo(user)).collect(Collectors.toList());
+		System.out.println("Test 1");
 		//return restTemplate.getForObject("http://localhost:8080/rest/getUser/"+name, List.class);
 
 	}
